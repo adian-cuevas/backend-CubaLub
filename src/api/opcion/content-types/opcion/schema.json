@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opciones",
+  "info": {
+    "singularName": "opcion",
+    "pluralName": "opciones",
+    "displayName": "Opcion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "documento": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

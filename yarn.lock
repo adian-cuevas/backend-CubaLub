@@ -1755,6 +1755,14 @@
     "request" "^2.83.0"
     "url-join" "4.0.1"
 
+"@strapi/provider-email-nodemailer@^4.4.3":
+  "integrity" "sha512-HKBjdalpKHIjsETTa4Ya5LUJt0TnQc0qWK8HA5e2yEKM8X/lxKJbft1caqTtyMRUco2EfgccGEt4F/179R7AQA=="
+  "resolved" "https://registry.npmjs.org/@strapi/provider-email-nodemailer/-/provider-email-nodemailer-4.4.3.tgz"
+  "version" "4.4.3"
+  dependencies:
+    "lodash" "4.17.21"
+    "nodemailer" "6.7.7"
+
 "@strapi/provider-email-sendmail@4.3.2":
   "integrity" "sha512-QHIeyi/c60/7a7DYYns8rQR3tGJLNEEHUCAkmV2qgsNPuYwRdNbLKRog49G+x4XpO6AI2tqFj6J13uYNsfCQ+g=="
   "resolved" "https://registry.npmjs.org/@strapi/provider-email-sendmail/-/provider-email-sendmail-4.3.2.tgz"
@@ -7169,7 +7177,9 @@
   "version" "1.0.4"
 
 "moment-timezone@^0.5.34":
-  "version" "0.5.34"
+  "integrity" "sha512-uEDzDNFhfaywRl+vwXxffjjq1q0Vzr+fcQpQ1bU0kbzorfS7zVtZnCnGc8mhWmF39d4g4YriF6kwA75mJKE/Zg=="
+  "resolved" "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.37.tgz"
+  "version" "0.5.37"
   dependencies:
     "moment" ">= 2.9.0"
 
@@ -7426,6 +7436,11 @@
   "version" "1.1.0"
   dependencies:
     "nodemailer-fetch" "1.6.0"
+
+"nodemailer@6.7.7":
+  "integrity" "sha512-pOLC/s+2I1EXuSqO5Wa34i3kXZG3gugDssH+ZNCevHad65tc8vQlCQpOLaUjopvkRQKm2Cki2aME7fEOPRy3bA=="
+  "resolved" "https://registry.npmjs.org/nodemailer/-/nodemailer-6.7.7.tgz"
+  "version" "6.7.7"
 
 "normalize-path@^3.0.0", "normalize-path@~3.0.0":
   "integrity" "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA=="

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ingresos",
+  "info": {
+    "singularName": "ingreso",
+    "pluralName": "ingresos",
+    "displayName": "Ingreso",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fecha": {
+      "type": "date"
+    },
+    "NombreCliente": {
+      "type": "string"
+    },
+    "NombreTrabajador": {
+      "type": "string"
+    },
+    "Cantidad": {
+      "type": "integer"
+    },
+    "VueltasRestantes": {
+      "type": "integer"
+    }
+  }
+}
